@@ -78,3 +78,5 @@ gem "devise_invitable", "~> 2.0"
 gem "cancan", "~> 1.6"
 
 gem "ransack", "~> 3.2"
+
+gem "kaminari", "~> 1.2"
