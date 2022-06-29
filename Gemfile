@@ -74,3 +74,5 @@ end
 gem "devise", "~> 4.8"
 
 gem "devise_invitable", "~> 2.0"
+
+gem "cancan", "~> 1.6"
