@@ -5,6 +5,9 @@ class UsersController < ApplicationController
   def show
     @q = User.ransack(params[:q])
     @users = @q.result
+
+    @users = User.page(params[:page]).per(1)
+
   end
 
 end
